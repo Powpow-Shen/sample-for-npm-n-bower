@@ -1,0 +1,25 @@
+{
+  "name": "sample-for-npm-n-bower",
+  "private": true,
+  "version": "0.0.0",
+  "description": "sample for npm and bower",
+  "dependencies": {
+    "bower": "1.3.8",
+    "ember": "^1.0.0-pre.2",
+    "jquery": "^2.1.1"
+  },
+  "scripts": {
+    "postinstall": "node node_modules/bower/bin/bower install",
+    "start": "node app.js",
+    "debug": "node debug app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Powpow-Shen/sample-for-npm-n-bower/"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  }
+}
