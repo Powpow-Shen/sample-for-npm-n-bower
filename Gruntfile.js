@@ -13,5 +13,5 @@ grunt.initConfig({
 });
 
 grunt.registerTask('default', [
-    'nugetrestore:restore'
+    'nugetrestore'
 ]);
