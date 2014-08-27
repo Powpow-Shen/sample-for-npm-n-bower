@@ -1,7 +1,7 @@
 sample-for-npm-bower-nuget
 ======================
 
-sample for npm, bower and nuget runnning in nodejs.
+Sample for npm, bower and nuget runnning in nodejs.
 
 Try to execute commands "npm install", "bower install" and "grunt nugetrestore" to see the difference of how npm, bower and nuget manage the packages. 
 
